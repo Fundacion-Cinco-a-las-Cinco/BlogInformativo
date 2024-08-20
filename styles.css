@@ -27,7 +27,7 @@ header {
 .logo {
     max-width: 100px;
     margin-right: 20px;
-    border-radius: 10px; /* Bordes redondeados suaves */
+    border-radius: 10px; 
 }
 
 
@@ -44,21 +44,22 @@ h1, h2, h3 {
     gap: 20px;
     flex-wrap: wrap;
     justify-content: space-between;
+
 }
 
 .revista {
-    flex: 1 1 calc(25% - 20px); /* Ajusta el ancho para 4 revistas por fila con espacio entre ellas */
+    flex: 1 1 calc(25% - 20px); 
     box-sizing: border-box;
     margin-bottom: 20px;
-    text-align: center; /* Centra el contenido */
+    text-align: center; 
 }
 
 .revista img {
     max-width: 100%;
     height: auto;
     display: block;
-    margin: 0 auto 10px auto; /* Centra la imagen horizontalmente */
-    max-height: 200px; /* Ajusta la altura máxima de las portadas */
+    margin: 0 auto 10px auto; 
+    max-height: 200px; 
 }
 
 
