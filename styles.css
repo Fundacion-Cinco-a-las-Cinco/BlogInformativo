@@ -64,7 +64,17 @@ h1, h2, h3 {
 
 
 
+@media (max-width: 768px) {
+    .revista {
+        flex: 1 1 calc(50% - 20px); /* En pantallas medianas, ajusta a dos revistas por fila */
+    }
+}
 
+@media (max-width: 480px) {
+    .revista {
+        flex: 1 1 calc(100% - 20px); /* En pantallas pequeñas, una revista por fila */
+    }
+}
 
 footer {
     background-color: #333;
