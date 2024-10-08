@@ -70,7 +70,7 @@ h1, h2, h3 {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 479px) {
     .revista {
         flex: 1 1 calc(100% - 20px); /* En pantallas pequeñas, una revista por fila */
     }
